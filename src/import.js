@@ -31,7 +31,7 @@ export default function up() {
           alias: 'uiRepo',
           describe: 'Git repository for the AEM Importer UI',
           type: 'string',
-          default: 'https://github.com/adobe/helix-importer-ui',
+          default: 'https://github.com/tareddingatbaici/helix-importer-ui',
         })
         .option('skip-ui', {
           alias: 'skipUI',
